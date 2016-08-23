@@ -1,0 +1,5 @@
+2016-08-24 00:16:17 ERROR AbstractRolePlayingGamePlayerService:40 - The same username exits in the system! Please provide a different one
+roleplayinggame.exception.RolePlayingException: The same username exits in the system! Please provide a different one
+	at roleplayinggame.service.RolePlayingGamePlayerService.signUpExecute(RolePlayingGamePlayerService.java:98)
+	at roleplayinggame.service.AbstractRolePlayingGamePlayerService.signUp(AbstractRolePlayingGamePlayerService.java:38)
+	at roleplayinggame.run.RolePlayingGameRunner.main(RolePlayingGameRunner.java:59)
